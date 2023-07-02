@@ -102,31 +102,33 @@ export default function About() {
       </div>
 
       {/* footer */}
-      <div className='home__container-footer'> 
-        <div className='home__container-footer_tile-1'>
-          <h3>Veoc tech</h3>
-          <p>12, Ransome-Allen road,<br/> Ikoyi, <br/> Lagos.</p>
-          <small>Phone: +234 740 514 1694</small>
-          <small>Email: support@veoctech.co.uk</small>
-        </div>
-        <div className='home__container-footer_tile-2'>
-          <h3>Useful Links</h3>
-          <small> {"> "} Home </small>
-          <small> {"> "} About Us</small>
-          <small> {"> "} Services</small>
-        </div>
-        <div className='home__container-footer_tile-3'>
-          <h3>Our Services</h3>
-          <small> {"> "} Product/web design </small>
-          <small> {"> "} Data Analysis</small>
-          <small> {"> "} Software engineering</small>
-          <small> {"> "} Video editing</small>
-        </div>
-        <div className='home__container-footer_tile-4'>
-          <h3>Others</h3>
-          <small> {"> "} Careers</small>
-          <small> {"> "} Corporate</small>
-          <small> {"> "} Portolio</small>
+      <div className="about__container-footer_container">
+        <div className='about__container-footer'> 
+          <div className='about__container-footer_tile-1'>
+            <h3>Veoc tech</h3>
+            <p>12, Ransome-Allen road,<br/> Ikoyi, <br/> Lagos.</p>
+            <small>Phone: +234 740 514 1694</small>
+            <small>Email: support@veoctech.co.uk</small>
+          </div>
+          <div className='about__container-footer_tile-2'>
+            <h3>Useful Links</h3>
+            <small> <span>{">"}</span> Home </small>
+            <small> <span>{">"}</span> About Us</small>
+            <small> <span>{">"}</span> Services</small>
+          </div>
+          <div className='about__container-footer_tile-3'>
+            <h3>Our Services</h3>
+            <small> <span>{">"}</span> Product/web design </small>
+            <small> <span>{">"}</span> Data Analysis</small>
+            <small> <span>{">"}</span> Software engineering</small>
+            <small> <span>{">"}</span> Video editing</small>
+          </div>
+          <div className='about__container-footer_tile-4'>
+            <h3>Others</h3>
+            <small> <span>{">"}</span> Careers</small>
+            <small> <span>{">"}</span> Corporate</small>
+            <small> <span>{">"}</span> Portolio</small>
+          </div>
         </div>
       </div>
     </div>
