@@ -1,4 +1,5 @@
 import React from 'react'
+import Topnav from "../Components/Navbar/Topnav"
 import "./About.css"
 import about from "../img/about.png"
 import goals from "../img/goals.png"
@@ -9,19 +10,8 @@ import retail from "../img/retail-execution.png"
 export default function About() {
   return (
     <div className='about__container'>
-      <div className="about__container-top_nav">
-        <div className='about__container-top_nav-links'>
-          <h3>Home</h3>
-          <h3>About us</h3>
-          <h3>Corporate</h3>
-          <h3>Services</h3>
-          <h3>Portfolio</h3>
-          <h3>Careers</h3>
-        </div>
-        <div className='about__container-top_nav-button'>
-          <button>Get a quote</button>
-        </div>
-      </div>  
+
+      <Topnav />
 
       {/* approach */}
       <div className='about__container-approach'>

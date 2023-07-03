@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from "../Components/Footer/Footing"
 import img1 from "../img/image1.png"
 import img2 from "../img/image2.png"
 import webdesign from "../img/webdesign.png"
@@ -189,33 +190,7 @@ function Home() {
       </div>
 
       {/* Footer section */}
-      <div className='home__container-footer'> 
-        <div className='home__container-footer_tile-1'>
-          <h3>Veoc tech</h3>
-          <p>12, Ransome-Allen road,<br/> Ikoyi, <br/> Lagos.</p>
-          <small>Phone: +234 740 514 1694</small>
-          <small>Email: support@veoctech.co.uk</small>
-        </div>
-        <div className='home__container-footer_tile-2'>
-          <h3>Useful Links</h3>
-          <small> {"> "} Home </small>
-          <small> {"> "} About Us</small>
-          <small> {"> "} Services</small>
-        </div>
-        <div className='home__container-footer_tile-3'>
-          <h3>Our Services</h3>
-          <small> {"> "} Product/web design </small>
-          <small> {"> "} Data Analysis</small>
-          <small> {"> "} Software engineering</small>
-          <small> {"> "} Video editing</small>
-        </div>
-        <div className='home__container-footer_tile-4'>
-          <h3>Others</h3>
-          <small> {"> "} Careers</small>
-          <small> {"> "} Corporate</small>
-          <small> {"> "} Portolio</small>
-        </div>
-      </div>
+      <Footer />
     </div>
 
   )
