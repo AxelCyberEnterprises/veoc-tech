@@ -4,15 +4,24 @@
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: right;
+  justify-content: space-between;
   margin-top: 45px;
 }
+.topnav__container-left {
+  margin-left: 125px;
+  width: 40px;
+  /* margin-top: 43px; */
+}
+.topnav__container-right {
+  display: flex;
+  justify-content: space-between;
+}
 .topnav__container-links {
-  width: 40%;
+  width: 600px;
   display: flex;
   color: #fff;
+  align-items: center;
   justify-content: space-between;
-  margin-right:90px;
   font-family: sans-serif;
 }
 .topnav__container-links > h3 {
@@ -29,6 +38,7 @@
 }
 .topnav__container-button {
   margin-right: 130px;
+  margin-left: 10%;
 }
 .topnav__container-button > button {
   width: 148px;

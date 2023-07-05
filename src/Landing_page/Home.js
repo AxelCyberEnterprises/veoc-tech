@@ -1,5 +1,6 @@
 import React from 'react'
 import Footer from "../Components/Footer/Footing"
+import Newsletter from "../Components/Newsletter/Newsletter"
 import img1 from "../img/image1.png"
 import img2 from "../img/image2.png"
 import webdesign from "../img/webdesign.png"
@@ -9,6 +10,7 @@ import videoedit from "../img/videoedit.png"
 import productimg from "../img/product.png"
 import teamworkimg from "../img/teamwork.png"
 import learning from "../img/learning.png"
+import logo from "../img/VTS2.png"
 import "./Home.css"
 
 function Home() {
@@ -17,16 +19,21 @@ function Home() {
       <div className='home__container-header_part'>
 
         <div className="home__container-header_part-top_nav">
-          <div className='home__container-header_part-top_nav-text'>
-            <h3>Home</h3>
-            <h3>About us</h3>
-            <h3>Corporate</h3>
-            <h3>Services</h3>
-            <h3>Portfolio</h3>
-            <h3>Careers</h3>
+          <div className='home__container-header_part-logo'>
+            <img src={logo} alt="topnav-logo"/>
           </div>
-          <div className='home__container-header_part-top_nav-button'>
-            <button>Get a quote</button>
+          <div className='home__container-header_part-right'>
+            <div className='home__container-header_part-top_nav-text'>
+              <h3>Home</h3>
+              <h3>About us</h3>
+              <h3>Corporate</h3>
+              <h3>Services</h3>
+              <h3>Portfolio</h3>
+              <h3>Careers</h3>
+            </div>
+            <div className='home__container-header_part-top_nav-button'>
+              <button>Get a quote</button>
+            </div>
           </div>
         </div>
         <div className='home__container-header_part-content'>
@@ -68,7 +75,7 @@ function Home() {
       {/* Explore-creatives */}
       <div className="home__container-explore_creatives">
         <div className='home__container-explore_creatives-top'>
-          <h2><span>Explore</span> our creative services</h2>
+          <h2>Partner with us for your digital solutions</h2>
         </div>
         <div className='home__container-explore_creatives-bottom'>
           <div className='home__container-explore_creatives-bottom_1'>
@@ -178,16 +185,7 @@ function Home() {
       </div>
 
       {/* Newsletter-section */}
-      <div className='home__container-newsletter'>
-        <div className='home__container-newsletter_top'>
-          <h2>Subscribe to our newsletter</h2>
-          <h4>All your information is completely confidential</h4>
-        </div>
-        <div className="home__container-newsletter_bottom">
-          <input placeholder='Email'></input>
-          <button>Subscribe</button>
-        </div>
-      </div>
+      <Newsletter />
 
       {/* Footer section */}
       <Footer />
