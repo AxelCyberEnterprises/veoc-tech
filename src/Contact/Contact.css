@@ -1,179 +1,140 @@
-.contact__container-hero {
-  display: flex;
-  margin-left: 125px;
-  margin-top: 100px;
-}
-.contact__container-hero_texts {
+.contact__container-get_in-touch {
   display: flex;
   flex-direction: column;
-  width: 480px;
+  margin-top: 71px;
+  align-items: center;
+  text-align: center;
 }
-.contact__container-hero_texts > h1 {
+.contact__container-get_in-touch > h1 {
   font-family: sans-serif;
-  font-size: 28px;
+  font-size: 29px;
   font-weight: 700;
   line-height: 36px;
+  width: 630px;
+  letter-spacing: -0.01em;
+  color: #FF0000;
 }
-.contact__container-hero_texts > h1 > span {
-  color: #6A65FF;
-}
-.contact__container-hero_texts > p {
-  font-family: sans-serif;
+.contact__container-get_in-touch > p {
   margin-top: 35px;
-  font-size: 16px;
+  font-family: sans-serif;
+  font-size: 17px;
   font-weight: 500;
-  line-height: 24px;
-  color: #121212;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #121212B2;
+  width: 700px;
 }
-.contact__container-hero_texts > button {
-  margin-top: 48px;
-  background: #6A65FFE5;
-  padding: 14px;
-  width: 148px;
-  color: #fff;
-  border-radius: 18px;
-  outline: none;
-  cursor: pointer;
-  border: none;
+.contact__container-get_in-touch > img {
+  margin-top: 40px;
 }
-.contact__container-hero_guide {
-  align-items: center;
+/* forms section */
+.contact__container-forms {
   display: flex;
-  justify-content: center;
+  width: 80%;
+  margin: 90px auto 0;
 }
-.contact__container-hero_guide-container {
-  width: 407px;
-  height: 536px;
-  background: #FF5A6026;
-  margin-left: 165px;
-  margin-top: 70px;
-  border-radius: 15px;
-  position: relative;
-  justify-content: center;
+.contact__container-forms_left {
+  display: flex;
+  width: 55%;
+  margin-right: 78px;
+  flex-direction: column;
 }
-.contact__container-hero_guide-container_box-1 {
-  background: #fff;
-  width: 90%;
+.contact__container-forms_left-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 40%;
+}
+.contact__container-forms_left-top > input {
+  width: 44%;
+  border: 1px solid #C4C4C480;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #12121299;
+  padding: 25px;
+  height: 60px;
+}
+.contact__container-forms_left > input {
+  /* margin-top: 0px; */
+  border: 1px solid #C4C4C480;
+  padding: 25px;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #12121299;
+}
+.textarea {
+  width: 100%;
+  margin-top: 80px;
+  height: 325px;
+  padding: 20px;
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #12121299;
+  border: 1px solid #C4C4C480;
+}
+.contact__container-forms_right {
   display: flex;
   flex-direction: column;
-  padding-bottom: 35px;
-  position: absolute;
-  top: -10%;
-  left: 20px;
-  border-radius: 10px;
-  border: 1px solid #C3C3C399;
 }
-.contact__container-hero_guide-container_box-1 > h3 {
+.contact__container-forms_right-top {
+  display: flex;
+  flex-direction: column;
   font-family: sans-serif;
+}
+.contact__container-forms_right-top > h3 {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  margin: 33px 0 0 33px;
-}
-.contact__container-hero_guide-container_box-1 > p {
-  font-family: sans-serif;
-  font-size: 10px;
-  font-weight: 500;
-  line-height: 14px;
-  color: #12121280;
-  margin: 18px 0 0 33px;
-  width: 286px;
-}
-.contact__container-hero_guide-container_box-1 > span {
-  display: flex;
-  color: #12121280;
-  margin: 19px 0 0 33px;
-  gap: 10px;
-}
-.contact__container-hero_guide-container_box-2 {
-  width: 350px;
-  background: #fff;
-  padding-bottom: 40px;
-  border: 1px solid #C3C3C399;
-  position: absolute;
-  border-radius: 10px;
-  top: 45%;
-  left: -50%;
-}
-.contact__container-hero_guide-container_box-2 > h3 {
-  font-family: sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 22px;
-  margin: 33px 0 0 33px;
-  color: #121212;
-}
-.contact__container-hero_guide-container_box-2 > div {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 90%;
-  margin: 25px auto 0;
-}
-.contact__container-hero_guide-container_box-2 > div > span {
-  display: flex;
-  align-items: center;
-  font-family: sans-serif;
-  color: #12121299;
-  gap: 10px;
-}
-
-/* blog section */
-.contact__container-blog {
-  width: 80%;
-  margin: 150px auto 0;
-}
-.contact__container-blog_top > h1{
-  font-family: sans-serif;
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 32px;
-  letter-spacing: 0em;
-  text-align: left;
-
-}
-.contact__container-blog_bottom {
-  display: flex;
-  margin-top: 52px;
-  font-family: sans-serif;
-  justify-content: space-between;
-}
-.contact__container-blog_bottom-tile {
-  width: 350px;
-}
-.contact__container-blog_bottom-tile > h2 {
-  font-family: sans-serif;
-  margin-top: 52px;
-  font-size: 22px;
-  color: #121212B2;
-  font-weight: 700;
-  line-height: 27px;
-}
-/* editing */
-.contact__container-editing {
-  margin-top: 121px;
-  width: 100%;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-.contact__container-editing > h1 {
-  text-align: center;
-  font-family: sans-serif;
-  font-size: 28px;
-  font-weight: 700;
-  line-height: 34px;
-}
-.contact__container-editing > h1 > span {
   color: #6A65FF;
 }
-.contact__container-editing > img {
-  margin-top: 64px;
+.contact__container-forms_right-top > p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+  color: #121212B2;
+  margin-top: 16px;
 }
-hr {
-  margin-top: 72px;
-  color: #C3C3C380;
-  width: 100%;
+.contact__container-forms_right-bottom {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  font-family: sans-serif;
+  
+}
+.contact__container-forms_right-bottom > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #FF0000;
+}
+.contact__container-forms_right-bottom > p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #121212B2;
+  margin-top: 16px;
+}
+.contact-container-footer {
+  background: #082642;
+  margin-top: 80px;
+  color: #fff;
 }

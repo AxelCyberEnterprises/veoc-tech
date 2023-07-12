@@ -3,6 +3,7 @@ import "./Contact.css"
 import Topnav from "../Components/Navbar/Topnav"
 import Footer from "../Components/Footer/Footing"
 import download from "../img/Download.png"
+import contactimg from "../img/contactimg.png"
 import folder from "../img/folder.png"
 import message from "../img/message.png"
 import notification from "../img/notification.png"
@@ -17,83 +18,36 @@ function Contact() {
   return (
     <div className="contact__container">
       <Topnav />
-      <div className="contact__container-hero">
-        <div className="contact__container-hero_texts">
-          <h1>Simple <span>solutions</span> to complex needs</h1>
-          <p>
-            Our solutions to our clients‘ complex needs are approached
-            using various methods. These methods however different 
-            are simple enough to be understood.
-          </p>
-          <button>Request demo</button>
-        </div>
-        <div className="contact__container-hero_guide">
-          <div className="contact__container-hero_guide-container">
-            <div className="contact__container-hero_guide-container_box-1">
-              <h3>Style guide</h3>
-              <p>
-                The style guide created by Veoc Tech . for client X is part of the 
-                steps being taken towards the client’s rebrand need.
-              </p>
-              <span>
-                <img src={notification} alt="notification-img" />
-                <p>3/5</p>
-              </span>
-              <span>
-                <img src={message} alt="message-img" />
-                <p>4</p>
-              </span>
-            </div>
-            <div className="contact__container-hero_guide-container_box-2">
-              <h3>File Attachments</h3>
-              <div>
-                <span>
-                  <img src={folder} alt="folder-img" />
-                  <p>User Interviews</p>
-                </span>
-                <img src={checkbox} alt="checkbox-img" />
-              </div>
-              <div>
-                <span>
-                  <img src={folder} alt="folder-img" />
-                  <p>Usability testing</p>
-                </span>
-                <img src={download} alt="download-img" />
-              </div>
-              
-            </div>
+      <div className="contact__container-get_in-touch">
+        <h1>Get in touch and let us know how we can help</h1>
+        <p>
+          Veoc Tech. is always happy to hear from potential clients who want to become pacesetters in <br />  their various respective niches
+        </p>
+        <img src={contactimg} alt="contact-img"/>
+      </div>
+      <div className="contact__container-forms">
+        <form className="contact__container-forms_left">
+          <div className="contact__container-forms_left-top">
+            <input type="text" placeholder="Your Name"></input>
+            <input type="number" placeholder="Phone"></input>
+          </div>
+          <input type="email" placeholder="Email"></input>
+          <textarea className="textarea" placeholder="Message"></textarea>
+        </form>
+        <div className="contact__container-forms_right">
+          <div className="contact__container-forms_right-top">
+            <h3>Location</h3>
+            <p>12, Ransom Allen road Ikoyi, Lagos.</p>
+          </div>
+          <div className="contact__container-forms_right-bottom">
+            <h3>Email</h3>
+            <p>support@veoctech.co.uk</p>
           </div>
         </div>
       </div>
-
-      {/* blog post section */}
-      <div className="contact__container-blog">
-        <div className="contact__container-blog_top">
-          <h1>Our latest blog posts</h1>
-        </div>
-        <div className="contact__container-blog_bottom">
-          <div className="contact__container-blog_bottom-tile">
-            <img src={blockchain} alt="blockchain-img" />
-            <h2>The Blockchain: demystification</h2>
-          </div>
-          <div className="contact__container-blog_bottom-tile">
-            <img src={macbook} alt="macbook-img" />
-            <h2>The new Macbook: key features</h2>
-          </div>
-          <div className="contact__container-blog_bottom-tile">
-            <img src={guitar} alt="guitar-img" />
-            <h2>The best guitars for harmony</h2>
-          </div>
-        </div>
+      <div className="contact-container-footer">
+        <Footer /> 
       </div>
-
-      {/* video editing section */}
-      <div className="contact__container-editing">
-        <h1>Explore what makes our video editing process <span>unique</span></h1>
-        <img src={editing} alt="editing-img" />
-      </div>
-      <hr />
-      <Footer /> 
     </div>
   )
 }

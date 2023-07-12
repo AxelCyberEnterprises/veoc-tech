@@ -1,0 +1,46 @@
+.portfolio__container {
+  width: 100%;
+}
+.portfolio__container-hero_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  text-align: center;
+}
+.portfolio__container-hero_section > h1 {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0em;
+  color: #FF0000;
+}
+.portfolio__container-hero_section > p {
+  font-family: sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: #121212B2;
+  margin-top: 40px;
+}
+.portfolio__container-hero_section > img {
+  margin-top: 70px;
+}
+
+/* body-section */
+.portfolio__container-body_section {
+  width: 80%;
+  display: flex;
+  margin: 187px auto 0;
+  flex-basis: 23% 35% 35%;
+  justify-content: space-between;
+}
+.portfolio__container-body_section-1 {
+  width: 80%;
+  display: flex;
+  margin: 97px auto 0;
+  flex-basis: 23% 35% 35%;
+  justify-content: space-between;
+}
