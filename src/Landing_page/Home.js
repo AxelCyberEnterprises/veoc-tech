@@ -13,7 +13,8 @@ import learning from "../img/learning.png"
 import logo from "../img/VTS2.png"
 import "./Home.css"
 
-function Home() {
+function Home(props) {
+
   return (
     <div className='home__container'>
       <div className='home__container-header_part'>
@@ -188,7 +189,9 @@ function Home() {
       <Newsletter />
 
       {/* Footer section */}
-      <Footer />
+      <div>
+        <Footer blue = {true}/>
+      </div>
     </div>
 
   )

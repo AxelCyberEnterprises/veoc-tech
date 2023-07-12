@@ -14,10 +14,12 @@
 }
 .topnav__container-right {
   display: flex;
+  width: 60%;
+  flex-basis: 90% 10%;
   justify-content: space-between;
 }
 .topnav__container-links {
-  width: 600px;
+  width: 60%;
   display: flex;
   color: #fff;
   align-items: center;
