@@ -181,6 +181,7 @@
   width: 65%;
   margin: 160px auto 120px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .about__container-bulletin_tile-1 {
@@ -230,114 +231,4 @@
   font-weight: 700;
   line-height: 24px;
   margin-top: 30px;
-}
-/* footer section */
-.about__container-footer_container {
-  width: 100%;
-  background-color: #082642;
-}
-.about__container-footer {
-  width: 80%;
-  display: flex;
-  margin: auto;
-  justify-content: space-between;
-  flex-basis: 20%;
-  color: #ffffff;
-  padding: 80px 0px;
-}
-.about__container-footer_tile-1 {
-  display: flex;
-  flex-direction: column
-}
-.about__container-footer_tile-1 > h3 {
-  font-family: sans-serif;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: 27px;
-}
-.about__container-footer_tile-1 > p {
-  font-family: sans-serif;
-  margin-top: 22px;
-  color: #FFFFFF99;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 23px;
-}
-.about__container-footer_tile-1 > small {
-  font-family: sans-serif;
-  margin-top: 20px;
-  font-size: 17px;
-  color: #FFFFFF99;
-  font-weight: 500;
-  line-height: 23px;
-}
-.about__container-footer_tile-2 {
-  display: flex;
-  margin-left: 100px;
-  flex-direction: column;
-  flex-basis: 20%;
-}
-.about__container-footer_tile-2 > h3 {
-  font-family: sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 23px;
-}
-.about__container-footer_tile-2 > small {
-  font-family: sans-serif;
-  font-size: 17px;
-  color: #FFFFFF99;
-  font-weight: 500;
-  line-height: 23px;
-  margin-top: 20px;
-}
-.about__container-footer_tile-2 > small > span {
-  margin-right: 8px;
-  color: darkcyan;
-}
-.about__container-footer_tile-3 {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 20%;
-}
-.about__container-footer_tile-3 > h3 {
-  font-family: sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 23px;
-}
-.about__container-footer_tile-3 > small {
-  font-family: sans-serif;
-  font-size: 17px;
-  color: #FFFFFF99;
-  font-weight: 500;
-  line-height: 23px;
-  margin-top: 20px;
-}
-.about__container-footer_tile-3 > small > span {
-  margin-right: 8px;
-  color: darkcyan;
-}
-.about__container-footer_tile-4 {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 20%;
-}
-.about__container-footer_tile-4 > h3 {
-  font-family: sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 23px;
-}
-.about__container-footer_tile-4 > small {
-  font-family: sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  line-height: 23px;
-  color: #FFFFFF99;
-  margin-top: 20px;
-}
-.about__container-footer_tile-4 > small > span {
-  margin-right: 8px;
-  color: darkcyan;
 }

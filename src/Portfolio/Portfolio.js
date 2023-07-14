@@ -13,7 +13,7 @@ import port6 from "../../src/img/port6.png"
 
 
 
-function Portfolio() {
+function Portfolio(props) {
   return(
     <div className="portfolio__container">
       <Navbar />
@@ -35,7 +35,7 @@ function Portfolio() {
         <img src={port6} alt="portfolio-img-6" />
       </div>
       <Newsletter />
-      <Footer />
+      <Footer blue={true} />
     </div>
   )
 }
