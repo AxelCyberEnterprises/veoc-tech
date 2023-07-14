@@ -3,6 +3,7 @@
 }
 .corporate__container-hero_section {
   display: flex;
+  flex-wrap: wrap;
   margin: 87px 0 0 150px;
 }
 .corporate__container-hero_section-texts {
@@ -52,6 +53,7 @@
 }
 .corporate__container-data_section-bottom {
   display: flex;
+  flex-wrap: wrap;
   margin: 69px 0 0 150px;
   align-items: center;
 }
@@ -87,6 +89,7 @@
 }
 .corporate__container-editing > img {
   margin-top: 68px;
+  width: 100%;
 }
 
 /* blog section */
@@ -134,8 +137,6 @@
   background: #082642;
   margin-top: 87px;
   color: #FFFFFF;
-}
-.corporate__container-footer_section > h3 {
 }
 .corporate__container-footer_section > small > span {
   color: #6A65FF;

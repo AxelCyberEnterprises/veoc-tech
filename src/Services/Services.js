@@ -11,7 +11,7 @@ import videos from "../img/VEO.png"
 
 
 
-function Services () {
+function Services (props) {
   return (
     <div className="services__container">
       <Navbar />
@@ -71,7 +71,7 @@ function Services () {
         </div>
       </div>
       <Newsletter />
-      <Footer />
+      <Footer blue={true}/>
     </div>
   )
 }

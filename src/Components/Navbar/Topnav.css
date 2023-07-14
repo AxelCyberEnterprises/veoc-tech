@@ -7,6 +7,15 @@
   justify-content: space-between;
   margin-top: 45px;
 }
+.topnav__container-blue {
+  width: 100%;
+  background-color: #082642;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 45px;
+}
 .topnav__container-left {
   margin-left: 125px;
   width: 40px;
@@ -26,16 +35,20 @@
   justify-content: space-between;
   font-family: sans-serif;
 }
-.topnav__container-links > h3 {
+.active {
+  color: #000000;
+}
+.custom-link {
   font-family: Sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 18px;
+  text-decoration: none;
   letter-spacing: 0.1em;
   text-align: left;
   color: #1212124D;
 }
-.topnav__container-links > h3:hover {
+.custom-link:hover {
   color: black;
 }
 .topnav__container-button {

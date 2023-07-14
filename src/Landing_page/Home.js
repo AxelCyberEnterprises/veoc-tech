@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 import Footer from "../Components/Footer/Footing"
 import Newsletter from "../Components/Newsletter/Newsletter"
 import img1 from "../img/image1.png"
@@ -25,18 +26,19 @@ function Home(props) {
           </div>
           <div className='home__container-header_part-right'>
             <div className='home__container-header_part-top_nav-text'>
-              <h3>Home</h3>
-              <h3>About us</h3>
-              <h3>Corporate</h3>
-              <h3>Services</h3>
-              <h3>Portfolio</h3>
-              <h3>Careers</h3>
+              <Link to="/" className='nav-link'>Home</Link>
+              <Link to="/About" className='nav-link' >About us</Link>
+              <Link to="/Corporate" className='nav-link'>Corporate</Link>
+              <Link to="/Services" className='nav-link'>Services</Link>
+              <Link to="/Portfolio" className='nav-link'>Portfolio</Link>
+              <Link to="/Contact" className='nav-link'>Contact</Link>
             </div>
             <div className='home__container-header_part-top_nav-button'>
               <button>Get a quote</button>
             </div>
           </div>
         </div>
+        
         <div className='home__container-header_part-content'>
           <div className='home__container-header_part-content_text'>
             <h2>Leading Information Technology company</h2>

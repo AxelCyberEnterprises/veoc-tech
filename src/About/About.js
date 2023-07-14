@@ -1,5 +1,5 @@
 import React from 'react'
-import Topnav from "../Components/Navbar/Topnav"
+import Navbar from "../Components/Navbar/Topnav"
 import Footer from "../Components/Footer/Footing"
 import "./About.css"
 import about from "../img/about.png"
@@ -12,7 +12,7 @@ export default function About() {
   return (
     <div className='about__container'>
 
-      <Topnav />
+      <Navbar />
 
       {/* approach */}
       <div className='about__container-approach'>
@@ -93,6 +93,7 @@ export default function About() {
       </div>
 
       {/* footer */}
+     
       <Footer blue={false} />
     </div>
   )
