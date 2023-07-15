@@ -27,7 +27,7 @@ function Footing(props) {
       </div>
       <div className={props.blue? "footing__container-tile_4": "footing__container-tile_4-blue"}>
         <h3>Others</h3>
-        <small> <span>{"> "}</span> <Link to="/Contact" className={props.blue? "foot-link": "foot-link-blue"}>Contact</Link></small>
+        <small> <span>{"> "}</span> <Link to="/" className={props.blue? "foot-link": "foot-link-blue"}>Contact</Link></small>
         <small> <span>{"> "}</span> <Link to="/Corporate" className={props.blue? "foot-link": "foot-link-blue"}>Corporate</Link> </small>
         <small> <span>{"> "}</span> <Link to="/Portfolio" className={props.blue? "foot-link": "foot-link-blue"}>Portfolio</Link> </small>
       </div>

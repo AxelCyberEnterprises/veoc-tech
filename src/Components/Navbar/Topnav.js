@@ -17,7 +17,7 @@ function Topnav(props) {
           <NavLink to="/Corporate" activeClassName="active" className="custom-link">Corporate</NavLink>
           <NavLink to="/Services" activeClassName="active" className="custom-link">Services</NavLink>
           <NavLink to="/Portfolio" activeClassName="active" className="custom-link">Portfolio</NavLink>
-          <NavLink to="/Contact" activeClassName="active" className="custom-link">Contact</NavLink>
+          <NavLink to="/" activeClassName="active" className="custom-link">Contact</NavLink>
         </div>
         <div className='topnav__container-button'>
           <button>Get a quote</button>

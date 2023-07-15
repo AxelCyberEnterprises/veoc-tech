@@ -27,11 +27,11 @@ function Home(props) {
           <div className='home__container-header_part-right'>
             <div className='home__container-header_part-top_nav-text'>
               <Link to="/" className='nav-link'>Home</Link>
-              <Link to="/About" className='nav-link' >About us</Link>
+              <Link to="/About"  className='nav-link' >About us</Link>
               <Link to="/Corporate" className='nav-link'>Corporate</Link>
               <Link to="/Services" className='nav-link'>Services</Link>
               <Link to="/Portfolio" className='nav-link'>Portfolio</Link>
-              <Link to="/Contact" className='nav-link'>Contact</Link>
+              <Link to="/" className='nav-link'>Contact</Link>
             </div>
             <div className='home__container-header_part-top_nav-button'>
               <button>Get a quote</button>

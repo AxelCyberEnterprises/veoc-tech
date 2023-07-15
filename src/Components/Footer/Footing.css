@@ -277,3 +277,285 @@
   margin-right: 8px;
   color: #6A65FF;
 }
+@media (max-width: 425px) {
+  .footing__container {
+    padding: 80px 0 125px 40px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30% 20% 20% 20% 20%;
+    width: 90%;
+    gap: 120px;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+  } 
+  .footing__container-blue {
+    padding: 80px 0 125px 120px;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 30% 20% 20% 20% 20%;
+    width: 100%;
+    flex-wrap: wrap;
+    background: #082642;
+    gap: 120px;
+    /* justify-content: space-between; */
+  } 
+  .footing__container-tile_1 {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .footing__container-tile_1> h3 {
+    font-size: 22px;
+    color: #121212D9;
+    font-weight: 700;
+    line-height: 27px;
+  }
+  .footing__container-tile_1 > p {
+    margin: 20px 0 44px 0;
+    font-family: sans-serif;
+    color: #12121280;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .footing__container-tile_1 > small {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #12121299;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  
+  .footing__container-tile_1-blue {
+    display: flex;
+    flex-direction: column;
+    background: #082642;
+    font-family: sans-serif;
+  }
+  .footing__container-tile_1-blue > h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    background: #082642;
+    color: #FFFFFFD9;
+  }
+  .footing__container-tile_1-blue > p {
+    margin: 20px 0 44px 0;
+    font-family: sans-serif;
+    /* color: #12121299; */
+    font-size: 17px;
+    font-weight: 700;
+    color: #FFFFFF99;
+    line-height: 23px;
+    background-color: #082642;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  .footing__container-tile_1-blue > small {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    /* color: #12121299; */
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FFFFFF99;
+    line-height: 27px;
+  }
+  .foot-link {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #12121299;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .foot-link-blue {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #FFFFFF99;
+    line-height: 23px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  
+  .footing__container-tile_2 {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .footing__container-tile_2 > h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #121212;
+    line-height: 27px;
+  }
+  .footing__container-tile_2 > small {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #12121299;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .footing__container-tile_2 > small > span {
+    margin-right: 8px;
+    color: #6A65FF;
+  }
+  .footing__container-tile_2-blue {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .footing__container-tile_2-blue > h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    line-height: 27px;
+  }
+  .footing__container-tile_2-blue > small {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 20px;
+    color: #FFFFFF99;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .footing__container-tile_2-blue > small > span {
+    color: #6A65FF;
+    margin-right: 8px;
+  }
+  .footing__container-tile_3 {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .footing__container-tile_3 > h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #121212;
+    line-height: 27px;
+  }
+  .footing__container-tile_3 > small {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 20px;
+    color: #12121299;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .footing__container-tile_3 > small > span {
+    margin-right: 8px;
+    color: #6A65FF;
+  }
+  .footing__container-tile_3-blue {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .footing__container-tile_3-blue > h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    line-height: 27px;
+  }
+  .footing__container-tile_3-blue > small {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 20px;
+    color: #FFFFFF99;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .footing__container-tile_3-blue > small > span {
+    margin-right: 8px;
+    color: #6A65FF;
+  }
+  
+  .footing__container-tile_4 {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .footing__container-tile_4 > h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #121212;
+    line-height: 27px;
+  }
+  .footing__container-tile_4 > small {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 20px;
+    color: #12121299;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .footing__container-tile_4 > small > span {
+    margin-right: 8px;
+    color: #6A65FF;
+  }
+  .footing__container-tile_4-blue {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+  }
+  .footing__container-tile_4-blue > h3 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    line-height: 27px;
+  }
+  .footing__container-tile_4-blue > small {
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 23px;
+    margin-top: 20px;
+    color: #FFFFFF99;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 27px;
+  }
+  .footing__container-tile_4-blue > small > span {
+    margin-right: 8px;
+    color: #6A65FF;
+  }
+  
+}
