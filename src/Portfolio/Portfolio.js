@@ -20,7 +20,7 @@ function Portfolio(props) {
       <div className="portfolio__container-hero_section">
         <h1>Interested in working with us? check out some of our projects</h1>
         <p>
-         Interested in working with us? check out some of our projects
+          View some projects from our web design/development portfolio for your perusal.
         </p>
         <img src={code} alt="code-img"/>
       </div>

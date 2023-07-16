@@ -289,7 +289,7 @@
     /* justify-content: space-between; */
   } 
   .footing__container-blue {
-    padding: 80px 0 125px 120px;
+    padding: 80px 0 125px 30px;
     display: flex;
     flex-direction: row;
     flex-basis: 30% 20% 20% 20% 20%;

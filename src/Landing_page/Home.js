@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import {Link} from "react-router-dom"
 import Footer from "../Components/Footer/Footing"
 import Newsletter from "../Components/Newsletter/Newsletter"
@@ -12,9 +12,17 @@ import productimg from "../img/product.png"
 import teamworkimg from "../img/teamwork.png"
 import learning from "../img/learning.png"
 import logo from "../img/VTS2.png"
+import hamburger from "../img/hambuger.png"
 import "./Home.css"
 
 function Home(props) {
+  	const[trigger, setTrigger] = useState(false)
+
+    const handleClick = () => {
+      setTrigger(!trigger)
+    }
+
+
 
   return (
     <div className='home__container'>
@@ -37,6 +45,26 @@ function Home(props) {
               <button>Get a quote</button>
             </div>
           </div>
+
+          <div className="home__container-ham">
+            <div onClick={handleClick} className="home__container-hambuger"> 
+              <img src={hamburger} alt="hambuger-img"/>
+            </div>
+            <div className="home__container-hambuger_links">
+            {trigger && (
+                <ul className="home__container-hambuger_links-container">
+                  <li><Link className="ham-link" to="/">Home</Link></li>
+                  <li><Link className="ham-link" to="/About">About us</Link></li>
+                  <li><Link className="ham-link" to="/Corporate">Corporate</Link></li>
+                  <li><Link className="ham-link" to="/Services">Services</Link></li>
+                  <li><Link className="ham-link" to="/Portfolio">Portfolio</Link></li>
+                  <li><Link className="ham-link" to="/">Contact</Link></li>
+              </ul>
+            ) } 
+            </div>
+          </div>
+
+
         </div>
         
         <div className='home__container-header_part-content'>
