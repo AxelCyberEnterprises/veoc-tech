@@ -62,7 +62,7 @@
   letter-spacing: 0.02em;
   background: inherit;
 }
-@media (max-width: 425px) {
+@media (max-width: 450px) {
   .newsletter__container {
     width: 100%;
    background: #6A65FFCC;

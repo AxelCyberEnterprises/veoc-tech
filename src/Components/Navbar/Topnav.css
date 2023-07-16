@@ -49,7 +49,8 @@
   color: #1212124D;
 }
 .custom-link:hover {
-  color: black;
+    border-bottom: 1px solid black;
+    color: black;
 }
 .topnav__container-button {
   margin-right: 130px;
@@ -64,4 +65,197 @@
   cursor: pointer;
   background-color: #ffffff;
   color: #00000;
+}
+.topnav__container-hambuger {
+  display: none;
+}
+@media (max-width: 1050px) {
+  .topnav__container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 45px;
+  }
+  .topnav__container-blue {
+    width: 100%;
+    background-color: #082642;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 45px;
+  }
+  .topnav__container-left {
+    margin-left: 85px;
+    width: 40px;
+    /* margin-top: 43px; */
+  }
+  .topnav__container-right {
+    display: flex;
+    width: 70%;
+    flex-basis: 90% 10%;
+    justify-content: space-between;
+  }
+  .topnav__container-links {
+    width: 100%;
+    display: flex;
+    color: #fff;
+    max-width: 800px;
+    border: none;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+  }
+  .active {
+    color: #000000;
+  }
+  .custom-link {
+    font-family: Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #1212124D;
+  }
+  .custom-link:hover {
+    color: black;
+  }
+  .topnav__container-button {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .topnav__container-button > button {
+    width: 148px;
+    padding: 10px 33px 10px 33px;
+    border-radius: 18px;
+    border: 1px solid #0000000;
+    gap: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #00000;
+  }
+}
+@media (max-width: 850px) {
+  .topnav__container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 150px;
+    margin-top: 35px;
+  }
+  .topnav__container-blue {
+    width: 100%;
+    background-color: #082642;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /* gap: 150px; */
+    justify-content: space-between;
+    margin-top: 35px;
+  }
+  .topnav__container-left {
+    margin-left: 55px;
+    width: 40px;
+    /* margin-top: 43px; */
+  }
+  .topnav__container-right {
+    display: flex;
+    width: 70%;
+    flex-basis: 90% 10%;
+    justify-content: space-between;
+  }
+  .topnav__container-links {
+    width: 80%;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    font-family: sans-serif;
+  }
+  .active {
+    color: #000000;
+  }
+  .custom-link {
+    font-family: Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    text-align: left;
+    color: #1212124D;
+  }
+  .custom-link:hover {
+    color: black;
+  }
+  .topnav__container-button {
+    margin-right: 30px;
+    margin-left: 10px;
+  }
+  .topnav__container-button > button {
+    width: 148px;
+    padding: 10px 33px 10px 33px;
+    border-radius: 18px;
+    border: 1px solid #0000000;
+    gap: 10px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #00000;
+  }
+}
+@media (max-width: 450px) {
+  .topnav__container-right {
+    display: none;
+    width: 60%;
+    flex-basis: 90% 10%;
+    justify-content: space-between;
+  }
+  .topnav__container-hambuger {
+    display: flex;
+    margin-right: 20px;
+    position: relative;
+  }
+  .topnav__container-hambuger_links {
+    display: block;
+    position: absolute;
+    top: 80px;
+    right: 0px;
+  }
+  .topnav__container-hambuger_links-container {
+    background: #efefef;
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+    justify-content: space-around;
+    list-style: none;
+  }
+  .ham-link {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #000000;
+    text-align: center;
+    margin: 30px;
+  }
+  .ham-link:hover {
+    border-bottom: 1px solid black;
+  }
+  .topnav__container {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 45px;
+  }
 }
