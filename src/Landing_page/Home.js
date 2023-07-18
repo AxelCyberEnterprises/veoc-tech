@@ -46,23 +46,23 @@ function Home(props) {
             </div>
           </div>
 
-          <div className="home__container-ham">
-            <div onClick={handleClick} className="home__container-hambuger"> 
-              <img src={hamburger} alt="hambuger-img"/>
-            </div>
-            <div className="home__container-hambuger_links">
-            {trigger && (
-                <ul className="home__container-hambuger_links-container">
-                  <li><Link className="ham-link" to="/">Home</Link></li>
-                  <li><Link className="ham-link" to="/About">About us</Link></li>
-                  <li><Link className="ham-link" to="/Corporate">Corporate</Link></li>
-                  <li><Link className="ham-link" to="/Services">Services</Link></li>
-                  <li><Link className="ham-link" to="/Portfolio">Portfolio</Link></li>
-                  <li><Link className="ham-link" to="/">Contact</Link></li>
-              </ul>
-            ) } 
-            </div>
           </div>
+        <div className="home__container-ham">
+          <div onClick={handleClick} className="home__container-hambuger"> 
+            <img src={hamburger} alt="hambuger-img"/>
+          </div>
+          <div className="home__container-hambuger_links">
+          {trigger && (
+              <ul className="home__container-hambuger_links-container">
+                <li><Link className="ham-link" to="/">Home</Link></li>
+                <li><Link className="ham-link" to="/About">About us</Link></li>
+                <li><Link className="ham-link" to="/Corporate">Corporate</Link></li>
+                <li><Link className="ham-link" to="/Services">Services</Link></li>
+                <li><Link className="ham-link" to="/Portfolio">Portfolio</Link></li>
+                <li><Link className="ham-link" to="/">Contact</Link></li>
+            </ul>
+          ) } 
+        </div>
 
 
         </div>
