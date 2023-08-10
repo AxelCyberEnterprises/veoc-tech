@@ -1,5 +1,5 @@
 import react, {useState} from "react"
-import VTS from "../../img/VTS.png"
+import VTS from "../../img/VTSnew.png"
 import hamburger from "../../img/hambuger.png"
 import {NavLink, Link} from "react-router-dom"
 import "./Topnav.css"
@@ -16,7 +16,7 @@ function Topnav(props) {
     <>
       <div className={props.blue? "topnav__container-blue": "topnav__container" }>
         <div className="topnav__container-left">
-          <img src={VTS} alt="logo.png" />
+          <img src={VTS}  alt="logo.png" />
         </div>
         <div className="topnav__container-right">
           <div className={props.blue? 'topnav__container-links-blue' : 'topnav__container-links'}>

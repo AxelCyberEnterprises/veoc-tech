@@ -11,7 +11,7 @@ import videoedit from "../img/videoedit.png"
 import productimg from "../img/product.png"
 import teamworkimg from "../img/teamwork.png"
 import learning from "../img/learning.png"
-import logo from "../img/VTS2.png"
+import logo from "../img/VTSnew.png"
 import hamburger from "../img/hambuger.png"
 import "./Home.css"
 
